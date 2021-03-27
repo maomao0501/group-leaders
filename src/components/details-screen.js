@@ -28,7 +28,7 @@ const DetailsScreen = () => {
                 <br/>
                 {movie.release_date}
             </div>
-            {JSON.stringify(movie)}
+            {/*{JSON.stringify(movie)}*/}
         </div>
     )
 }
