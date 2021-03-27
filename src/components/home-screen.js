@@ -4,13 +4,14 @@ import {Link} from "react-router-dom";
 const HomeScreen = () => {
     return (
         <div>
-            <h2>Home Screen</h2>
-            <Link to="/search">
-                Search
+            <h2 style={{textAlign:'center'}}>Home Screen</h2>
+            <br/>
+            <Link to="/search/title">
+                <h2 style={{textAlign:'center'}}>Search</h2>
             </Link>
             <br/>
             <Link to="/details">
-                Details
+                <h2 style={{textAlign:'center'}}>Details</h2>
             </Link>
         </div>
     )
